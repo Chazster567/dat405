@@ -6,25 +6,47 @@
 //The purpose of this sketch is to provide a basic template
 //for P5.js projects
 
+var r = 0
+var g = 127
+var b = 200
 //Initialization function
 function setup() {
+  frameRate(200);
   //Print a message to the console - to view using Chrome:
   //View > Developer > Developer Tools > Console
   console.log("Initialization: OK")
-  createCanvas(200,200);
+  createCanvas(500,500);
 }
 
 
-
-let size = 20;
+let size = 25;
 //Rendering function
 function draw() {
-  background(255,0,255);
-  for(let y = 0; y<200; y++){
-    for(let x = 0; x<200; x++){
-      fill(random(220),random(0),random(220));
+  background(150,120,90)
+
+  for(let y = 0.5; y<500; y+=2){
+    for(let x = 0.5; x<500; x+=2){
+
+
+      fill(r,g,b);
+
+
       rect(x*size, y*size, size, size)
+
+      }
+
+
+    }
+    r=r+20;
+    g=g+10;
+    b=b+30;
+    if (r > 255){
+      r=50;
+    }
+    else if(g>255){
+      g=50;
+    }
+    else if(b>255){
+      b=50;
     }
   }
-  //View > Developer > Developer Tools > Console
-}
