@@ -13,13 +13,12 @@ function mousePressed() {
 function setup() {
   //Print a message to the console - to view using Chrome:
   //View > Developer > Developer Tools > Console
-  song = loadSound('00_Template/libraries/How to Pronounce Egg.mp3');
+  song = loadSound('https://www.youtube.com/watch?v=zk6RbdAbvfs');
   console.log("Initialization: OK")
   createCanvas(1920,1080);
   frameRate(200);
   noStroke();
 }
-
 
 //Rendering function
 function draw() {
