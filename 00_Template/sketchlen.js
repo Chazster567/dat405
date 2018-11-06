@@ -5,10 +5,6 @@
 //00_Template
 //The purpose of this sketch is to provide a basic template
 //for P5.js projects
-
-var r = 0
-var g = 127
-var b = 200
 //Initialization function
 function setup() {
   frameRate(200);
@@ -17,36 +13,10 @@ function setup() {
   console.log("Initialization: OK")
   createCanvas(500,500);
 }
-
-
-let size = 25;
-//Rendering function
-function draw() {
-  background(150,120,90)
-
-  for(let y = 0.5; y<500; y+=2){
-    for(let x = 0.5; x<500; x+=2){
-
-
-      fill(r,g,b);
-
-
-      rect(x*size, y*size, size, size)
-
-      }
-
-
-    }
-    r=r+20;
-    g=g+10;
-    b=b+30;
-    if (r > 255){
-      r=50;
-    }
-    else if(g>255){
-      g=50;
-    }
-    else if(b>255){
-      b=50;
-    }
-  }
+function setup() {
+  var cnv = createCanvas(100, 100);
+    <img src = "https://raw.githubusercontent.com/Chazster567/dat405/master/00_Template/1x/Asset%201.png" alt="Lennon Body">
+  // positions canvas 50px to the right and 100px
+  // below upper left corner of the window
+  cnv.position(58, 100);
+}
