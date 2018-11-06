@@ -14,6 +14,6 @@ function draw() {
 
       fill(random(255),random(255),random(255));
 
-      size = random(40)
-      rect(mouseX, 0, 20, size);
+      size = random(20,100)
+      rect(mouseX, 0, 5, size);
 }

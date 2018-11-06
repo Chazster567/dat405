@@ -29,10 +29,13 @@ function draw() {
 function customShape(){
   var x = random(1920);
   var y = random(1080);
-  size = random(100,200);
-  size2 = random(100);
+  size = random(120,200);
+  size2 = random(70,120);
+  size3 = random(20,70);
   fill(random(255),random(255),random(255));
   ellipse(x,y,size,size);
   fill(random(255),random(255),random(255));
   ellipse(x,y,size2,size2);
+  fill(random(255),random(255),random(255));
+  ellipse(x,y,size3,size3);
 }
