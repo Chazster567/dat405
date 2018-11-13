@@ -3,7 +3,7 @@ function setup() {
   //View > Developer > Developer Tools > Console
   console.log("Initialization: OK")
   createCanvas(1900,1080);
-  frameRate(1);
+  frameRate(20);
   noStroke();
 }
 
@@ -14,7 +14,5 @@ function draw() {
 
       fill(random(255),random(255),random(255));
 
-      size = random(20,100)
-      rect(mouseX, 0, 5, mouseY);
-      rect(0, mouseY, mouseX+5, 5);
+      rect(mouseX, 0, 5, random(100));
 }

@@ -11,7 +11,7 @@ var g = 127
 var b = 200
 //Initialization function
 function setup() {
-  frameRate(200);
+  frameRate(60);
   //Print a message to the console - to view using Chrome:
   //View > Developer > Developer Tools > Console
   console.log("Initialization: OK")
