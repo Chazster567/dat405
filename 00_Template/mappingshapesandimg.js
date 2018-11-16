@@ -1,14 +1,14 @@
-var img;  // Declare variable 'img'.
+var img = [];  // Declare variable 'img'.
 
 function setup() {
   //Print a message to the console - to view using Chrome:
   //View > Developer > Developer Tools > Console
   console.log("Initialization: OK")
-  createCanvas(1900,1080);
-  img = loadImage("assets/john1.png");
-  img2 = loadImage("assets/paul1.png");
-  img3 = loadImage("assets/george1.png");
-  img4 = loadImage("assets/ringo1.png");
+  createCanvas(1920,1080);
+  img[0] = loadImage("assets/john1.png");
+  img[1] = loadImage("assets/paul1.png");
+  img[2] = loadImage("assets/george1.png");
+  img[3] = loadImage("assets/ringo1.png");
   frameRate(100);
   noStroke();
 }
@@ -21,10 +21,10 @@ function draw(){
   var l = map(mouseX, 0, width, 255, 0);
   var i = map(mouseY, 0, height, 255, 0);
 
-    image(img, 300, 20, img.width/2, img.height/2);
-    image(img2, 1300, 20, img.width/2, img.height/2);
-    image(img3, 320, 610, 252, 382);
-    image(img4, 1300, 600, 225, 403);
+    image(img[0], 300, 20, 300, 450);
+    image(img[1], 1300, 20, 300, 403);
+    image(img[2], 320, 610, 252, 382);
+    image(img[3], 1300, 600, 225, 403);
 
     fill(m,n,l,200);
     rect(0, 0, width/2, height/2);
@@ -34,4 +34,12 @@ function draw(){
     rect(width/2, 0, width/2, height/2);
     fill(l,i,m,200);
     rect(width/2, height/2, width/2, height/2);
+    fill(l,i,m,200);
+    ellipse(480, 270, 200, 200);
+    fill(l,i,m,200);
+    ellipse(1440, 270, 200, 200);
+    fill(l,i,m,200);
+    ellipse(480, 810, 200, 200);
+    fill(l,i,m,200);
+    ellipse(1440, 810, 200, 200);
 }
