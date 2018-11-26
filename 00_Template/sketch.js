@@ -42,10 +42,10 @@ function draw() { // function to produce the objects involved
       var movementY = y + 10 * sin(2 * PI * time + angle);
 
       var size = 3 // size variable
-      fill(r, g, b); // fill particle
-      ellipse(movementX, movementY, size, size); // draw particle
-      fill(r, g, b); // fill particle
-      ellipse(movementY, movementX, size, size); // draw particle
+      fill(r, g, b); // fills particle
+      ellipse(movementX, movementY, size, size); // draws particle
+      fill(r, g, b); // fills particle
+      ellipse(movementY, movementX, size, size); // draws particle
     }
   }
   time = time + 0.01; // updates time
@@ -58,19 +58,19 @@ function recolour() { // recolours randomly
 }
 
 function recolourRed() { // recolours red
-  r = 255;
-  g = 0;
-  b = 0;
+  r = 255; // set to max
+  g = 0; // set to min
+  b = 0; // set to min
 }
 
 function recolourGreen() { // recolours green
-  r = 0;
-  g = 255;
-  b = 0;
+  r = 0; // set to min
+  g = 255; // set to max
+  b = 0; // set to min
 }
 
 function recolourBlue() { // recolours blue
-  r = 0;
-  g = 0;
-  b = 255;
+  r = 0; // set to min
+  g = 0; // set to min
+  b = 255; // set to max
 }
