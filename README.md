@@ -14,4 +14,6 @@ Adding the buttons was a nice touch and allowed the user to change the colour to
 
 The waves are made using the movement variables. The movement is created by the x and y values being increased whilst also being multiplied by the sin or cos of the angle. The angle is produced using the mouse maps and canvas properties.
 
+I'm satisfied with the way this has turned out. The possibilities and outcomes with the colour changes and mouse movement are very diverse and unique which means you can experiment with it for a long time before it becomes repetitive.
+
 https://github.com/Chazster567/dat405
