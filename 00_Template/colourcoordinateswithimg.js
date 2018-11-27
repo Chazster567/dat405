@@ -34,12 +34,4 @@ function draw(){
     rect(width/2, 0, width/2, height/2);
     fill(l,i,m,200);
     rect(width/2, height/2, width/2, height/2);
-    fill(l,i,m,200);
-    ellipse(480, 270, 200, 200);
-    fill(l,i,m,200);
-    ellipse(1440, 270, 200, 200);
-    fill(l,i,m,200);
-    ellipse(480, 810, 200, 200);
-    fill(l,i,m,200);
-    ellipse(1440, 810, 200, 200);
 }
