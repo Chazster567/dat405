@@ -11,3 +11,7 @@ By moving the mouse around the screen the user creates mapping values which are 
 I created this work to symbolise how perception can be altered. The circular motion makes the particles appear to move on all of the planes. This creates the 3D effect as if you are looking at the sea from a birds eye view.
 
 Adding the buttons was a nice touch and allowed the user to change the colour to either a random colour in the spectrum or pure red, green, or blue. To make the buttons I used the button function that is part of the p5 library.
+
+The waves are made using the movement variables. The movement is created by the x and y values being increased whilst also being multiplied by the sin or cos of the angle. The angle is produced using the mouse maps and canvas properties.
+
+https://github.com/Chazster567/dat405
