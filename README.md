@@ -16,4 +16,10 @@ The waves are made using the movement variables. The movement is created by the 
 
 I'm satisfied with the way this has turned out. The possibilities and outcomes with the colour changes and mouse movement are very diverse and unique which means you can experiment with it for a long time before it becomes repetitive.
 
+GitHub link:
+
 https://github.com/Chazster567/dat405
+
+GitHub Pages link:
+
+https://chazster567.github.io/DAT405-Assignment-1/
